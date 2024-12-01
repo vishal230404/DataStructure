@@ -16,7 +16,6 @@ void insert(string s,trie *root) {
 		if(curr->next[idx]==NULL) {
 			curr->next[idx]=new trie();
 		}
-        curr=curr->next[idx];
 	}
 	curr->ended=true;
 }
